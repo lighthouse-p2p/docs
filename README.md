@@ -5,10 +5,13 @@
 
 ## Contents
 
+- [What is lighthouse](./what.md)
 - [Registration](./registration.md)
 - [Authentication](./auth.md)
 - [Signaling](./signaling.md)
 - [Lighthouse Peer (The App)](./peer.md)
+- [Blockchain](./blockchain.md)
+- [References](./references.md)
 
 ---
 
