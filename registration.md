@@ -5,3 +5,7 @@ During registration, the client is asked the host of the [hub](https://github.co
 After receiving them, the hub validates both of them (never trust client side data), and then stores them into a DHT (Distributed Hash Table).
 
 After storing them, the hub asks the [blockchain](./blockchain.md) to add an initial coin amount to the wallet associated with that public key.
+
+### This is how a DHT looks
+
+![](./dht.png)
