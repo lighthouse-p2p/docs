@@ -11,7 +11,6 @@
 - [Signaling](./signaling.md)
 - [Lighthouse Peer (The App)](./peer.md)
 - [Blockchain](./blockchain.md)
-- [References](./references.md)
 
 ---
 
