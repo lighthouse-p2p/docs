@@ -2,7 +2,7 @@
 
 As lighthouse uses WebRTC data channels to make a peer-to-peer TCP tunnel, the hub somehow needs to exchange the SDP (Session Descriptor Protocol) between peers.
 
-Signaling uses websockets, and when the [authentication](./auth.md) is successful, it subscribes to a channel on [redis](https://redis.io) pub-sub.
+Signaling uses websockets, and when the [authentication](./authentication.md) is successful, it subscribes to a channel on [redis](https://redis.io) pub-sub.
 
 The hub first checks the amount of coins before exchange "offer" type SDP. If the number is less than 1, the offer isn't forwarded to the other peer. "answer" type SDP is sill allowed, as the peer has no other way to earn coins than to serve some media.
 
